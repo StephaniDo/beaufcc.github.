@@ -1,0 +1,101 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav,
+  .avt-banner {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 30px 10px;
+    margin-right: 1rem;
+  }
+  .tablet-job-infor {
+    border-right: 1px solid #f783ac39;
+  }
+  #navbar {
+    margin: 20px;
+  }
+  /* MYINFOR */
+  #media-container {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: 1fr 1fr;
+  }
+  #target {
+    margin-right: 60px;
+    padding-left: 25px;
+  }
+  #personal-infor {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  /* DETAILS OF MYINFOR */
+  .job-title h1 {
+    font-size: 25px;
+  }
+  .job-content .mode {
+    font-size: 15px;
+  }
+  .job-content .mode-more {
+    font-size: 10px;
+  }
+
+  .favorite {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+  }
+  .favorite .ff,
+  .favorite .ss {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: left;
+  }
+  .favorite .ss p {
+    padding-top: 18px;
+  }
+  /* cert */
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* project */
+  .pr-title {
+    font-size: 14px;
+  }
+  .pr-border {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 10px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  /* readmore */
+  #goal,
+  #team,
+  #scopes,
+  #primary,
+  #timeline {
+    margin: 0 20px;
+  }
+  #goal i {
+    margin-left: -700px;
+  }
+  #team i {
+    margin-left: -700px;
+  }
+  #primary i {
+    margin-left: -700px;
+  }
+  #timeline i {
+    margin-left: -700px;
+  }
+  #tl {
+    margin-bottom: -15px !important;
+    margin-top: 10px;
+  }
+}

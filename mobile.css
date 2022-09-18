@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  .text-nav,
+  .avt-banner {
+    display: none;
+  }
+  #navbar {
+    height: autopx;
+    display: block;
+  }
+  nav > a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    border-left: none;
+  }
+  nav > .container-navbar {
+    padding: 0;
+    padding-left: -20px;
+    margin-left: -20px;
+    border-left: none;
+  }
+  /* Myinfor */
+  #media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .col-md {
+    margin-left: -110px;
+  }
+  /* Cert */
+
+  .cer-content-2 {
+    border-top: 1px solid #d6c08d;
+    border-left: none;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+  /* footer */
+  #footer a:link,
+  a:visited {
+    margin-right: -10px;
+    padding: 15px 10px;
+  }
+  /* readmore */
+  #goal,
+  #team,
+  #scopes,
+  #primary,
+  #timeline {
+    margin: 0 18px;
+  }
+  #timeline i {
+    margin-left: -220px;
+  }
+  #tl {
+    margin-bottom: -15px !important;
+    margin-top: 10px;
+  }
+}
